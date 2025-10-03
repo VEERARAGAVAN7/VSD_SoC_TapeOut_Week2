@@ -11,7 +11,7 @@ After synthesis, the RTL design is converted into a gate-level netlist mapped to
 
 
 
-# 📂 Files Required
+## 📂 Files Required
 
 Before running the iverilog command, copy the necessary standard cell and primitive models: 
 These files must be present in the same directory as the testbench (src/module) to resolve all module references during compilation.
