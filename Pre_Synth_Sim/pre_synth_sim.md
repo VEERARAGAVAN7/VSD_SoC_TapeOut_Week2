@@ -22,6 +22,7 @@ We use Icarus Verilog (iverilog) for simulation and GTKWave for waveform a>
 Install them:
 
 ```
+code:
 sudo apt install iverilog gtkwave -y
 ```
 
@@ -54,6 +55,7 @@ VSDBabySoC/
 
 1. Compile the RTL with Icarus Verilog
 ```
+code:
 iverilog -o output/pre_synth_sim/pre_synth_sim.out -DPRE_SYNTH_SIM -I src/>
 ```
 
@@ -62,6 +64,7 @@ iverilog -o output/pre_synth_sim/pre_synth_sim.out -DPRE_SYNTH_SIM -I src/>
 
 2. Run the Simulation
 ```
+code:
 ./pre_synth_sim.out 
 ```
 
@@ -70,6 +73,7 @@ iverilog -o output/pre_synth_sim/pre_synth_sim.out -DPRE_SYNTH_SIM -I src/>
 
 3. View the Waveforms in GTKWave
 ```
+code:
 gtkwave pre_synth_sim.vcd
 ```
 
