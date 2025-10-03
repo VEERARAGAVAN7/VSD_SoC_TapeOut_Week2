@@ -23,7 +23,8 @@ Install them:
 
 ```
 code:
-sudo apt install iverilog gtkwave -y
+
+@veeraragav-victus:~/VSD_Soc_TapeOut_Program/week2/VSDBabySoC$ sudo apt install iverilog gtkwave -y
 ```
 
 
@@ -56,7 +57,8 @@ VSDBabySoC/
 1. Compile the RTL with Icarus Verilog
 ```
 code:
-iverilog -o output/pre_synth_sim/pre_synth_sim.out -DPRE_SYNTH_SIM -I src/>
+
+@veeraragav-victus:~/VSD_Soc_TapeOut_Program/week2/VSDBabySoC$ iverilog -o output/pre_synth_sim/pre_synth_sim.out -DPRE_SYNTH_SIM -I src/>
 ```
 
 ![Compilation of Screenshots](Screenshots/compile.png)
@@ -65,7 +67,8 @@ iverilog -o output/pre_synth_sim/pre_synth_sim.out -DPRE_SYNTH_SIM -I src/>
 2. Run the Simulation
 ```
 code:
-./pre_synth_sim.out 
+
+@veeraragav-victus:~/VSD_Soc_TapeOut_Program/week2/VSDBabySoC$ ./pre_synth_sim.out 
 ```
 
 ![Simulation Run](Screenshots/simulation.png)
@@ -74,7 +77,8 @@ code:
 3. View the Waveforms in GTKWave
 ```
 code:
-gtkwave pre_synth_sim.vcd
+
+@veeraragav-victus:~/VSD_Soc_TapeOut_Program/week2/VSDBabySoC$ gtkwave pre_synth_sim.vcd
 ```
 
 ![GTKWave Waveform](Screenshots/pre_synth_wf.png)
