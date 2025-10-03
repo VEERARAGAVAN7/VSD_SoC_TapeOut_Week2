@@ -11,6 +11,8 @@ We use Icarus Verilog (iverilog) for simulation and GTKWave for waveform a>
 3. PLL (avsdpll.v)
 4. Top-level SoC (vsdbabysoc.v)
 
+
+
 ## 🛠️ Tools Required
 
 - Icarus Verilog (iverilog) → compile RTL
@@ -23,8 +25,10 @@ Install them:
 sudo apt install iverilog gtkwave -y
 ```
 
+
 ## 📂 Directory Structure
 
+```
 VSDBabySoC/
 ├── src/
 │   ├── include/                # Header files (.vh)
@@ -41,6 +45,10 @@ VSDBabySoC/
 ├── output/
 │   └── pre_synth_sim/          # Simulation outputs
 └── README.md                   # Documentation
+
+```
+
+
 
 ## ▶️ Steps to Run Pre-Synthesis Simulation
 
@@ -66,6 +74,7 @@ gtkwave pre_synth_sim.vcd
 ```
 
 ![GTKWave Waveform](screenshots/pre_synth_wf.png)
+
 
 
 ## 📊 Expected Outcome
