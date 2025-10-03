@@ -87,7 +87,7 @@ code:
 
 ## 📊 Expected Outcome
 
-  ✅ Functional verification of vsdbabysoc design.
-  ✅ dump.vcd generated successfully.
-  ✅ Waveforms showing RISC-V core signals, DAC, and PLL connections.
+-  ✅ Functional verification of vsdbabysoc design.
+-  ✅ dump.vcd generated successfully.
+-  ✅ Waveforms showing RISC-V core signals, DAC, and PLL connections.
 
