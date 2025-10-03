@@ -93,7 +93,7 @@ yosys> synth -top vsdbabysoc
 ## 5️⃣ Technology Mapping and Optimization
 
 
-### Dff_Mapping 
+### Dff Mapping 
 
 ```
 tcl
@@ -118,7 +118,7 @@ yosys> opt
 ![Optimization](Screenshots/optimization.png)
 
 
-### Tech_Mapping
+### Technology Mapping
 
 ```
 tcl
@@ -132,7 +132,7 @@ yosys> abc -liberty ~/VSD_Soc_TapeOut_Program/VSDBabySoC/src/lib/sky130_fd_sc_hd
 ![Lib_Mapping](Screenshots/tech_map.png)
 
 
-### flatten
+### flatten the Design
 
 ```
 tcl 
@@ -145,7 +145,7 @@ yosys> flatten
 ![Flatten](Screenshots/flatten.png)
 
 
-### Unused_cells_wire_removal
+### Unused cells, wires removal
 
 ```
 tecl
