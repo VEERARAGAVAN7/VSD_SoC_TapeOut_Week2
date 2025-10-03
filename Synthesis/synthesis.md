@@ -26,7 +26,7 @@ bash
 
 yosys
 ```
-This invokes the Yosys interactive shell where all synthesis commands are executed.
+- This invokes the Yosys interactive shell where all synthesis commands are executed.
 
 
 ![Invoke_Yosys](Screenshots/invoke_yosys.png)
@@ -198,7 +198,7 @@ yosys> write_verilog -noattr ~/VSD_Soc_TapeOut_Program/week2/VSDBabySoC/output/p
 
 ## ✅ Conclusion
 
-- At the end of synthesis:
+At the end of synthesis:
 - --->RTL is successfully mapped to SKY130 technology cells.
 - --->Netlist (vsdbabysoc_net.vs) is generated for post-synthesis simulation.
 - --->Design is now ready for logic verification and physical design (PnR).
