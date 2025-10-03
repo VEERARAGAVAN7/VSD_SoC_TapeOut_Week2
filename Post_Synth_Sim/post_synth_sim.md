@@ -71,5 +71,4 @@ gtkwave pre_synth_sim.vcd
 ## 📊 Expected Outcome
 
   ✅ Functional verification of vsdbabysoc design.
-  ✅ dump.vcd generated successfully.
-  ✅ Waveforms showing RISC-V core signals, DAC, and PLL connections.
+  ✅ dump.vcd generated s
