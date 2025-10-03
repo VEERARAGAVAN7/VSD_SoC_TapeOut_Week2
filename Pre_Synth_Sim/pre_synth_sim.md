@@ -3,7 +3,7 @@
 ## 📖 Overview
 
 - This stage verifies the RTL design functionality before synthesis.
-We use Icarus Verilog (iverilog) for simulation and GTKWave for waveform a>
+We use Icarus Verilog (iverilog) for simulation and GTKWave for waveform.
 
 - The design under test is VSDBabySoC, which integrates:
 1. RISC-V core (rvmyth.v)
