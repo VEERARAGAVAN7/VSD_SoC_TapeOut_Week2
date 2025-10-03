@@ -6,14 +6,14 @@
 ![VSD](https://img.shields.io/badge/VSD-Program-orange?style=for-the-badge)
 ![India](https://img.shields.io/badge/Made%20in-India-saffron?style=for-the-badge)
 
-## 📅 **Week 2 — Pre-Synthesis, Synthesis, and Post-Synthesis**
+## 📅 Week 2 — Pre-Synthesis, Synthesis, and Post-Synthesis
 
 This week was dedicated to taking the **RTL design to gate-level representation** using Yosys, validating functional correctness, and preparing the design for physical design flow. The work primarily involved our SoC modules:
 
-- **vsdbabysoc.v** → *Top-level SoC integration module*
-- **rvmyth.v** → *RISC-V core*
-- **avsdpll.v** → *PLL module for clock generation*
-- **avsddac.v** → *DAC module for output conversion*
+- vsdbabysoc.v → Top-level SoC integration module
+- rvmyth.v → RISC-V core
+- avsdpll.v → PLL module for clock generation
+- avsddac.v → DAC module for output conversion
 
 
 ## Introduction to the VSDBabySoC
@@ -26,9 +26,9 @@ VSDBabySoC contains one RVMYTH microprocessor, an 8x-PLL to generate a stable cl
 What is VSDBabySoC?
 VSDBabySoC is a compact SoC featuring:
 
-- *RVMYTH: A simple RISC-V-based CPU core.
-- *PLL: An 8x Phase-Locked Loop for stable clock generation.
-- *DAC: A 10-bit Digital-to-Analog Converter for interfacing with analog devices.
+- RVMYTH: A simple RISC-V-based CPU core.
+- PLL: An 8x Phase-Locked Loop for stable clock generation.
+- DAC: A 10-bit Digital-to-Analog Converter for interfacing with analog devices.
 Its primary purpose is to integrate and test these IPs collaboratively and calibrate the analog part of the SoC.
 
 ![VSDBabySoC](Screenshots/BabySoC_block.png)
