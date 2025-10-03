@@ -57,7 +57,7 @@ VSDBabySoC/
 iverilog -o output/pre_synth_sim/pre_synth_sim.out -DPRE_SYNTH_SIM -I src/>
 ```
 
-![Compilation of Screenshots](screenshots/compile.png)
+![Compilation of Screenshots](Screenshots/compile.png)
 
 
 2. Run the Simulation
@@ -65,7 +65,7 @@ iverilog -o output/pre_synth_sim/pre_synth_sim.out -DPRE_SYNTH_SIM -I src/>
 ./pre_synth_sim.out 
 ```
 
-![Simulation Run](screenshots/simulation.png)
+![Simulation Run](Screenshots/simulation.png)
 
 
 3. View the Waveforms in GTKWave
@@ -73,7 +73,7 @@ iverilog -o output/pre_synth_sim/pre_synth_sim.out -DPRE_SYNTH_SIM -I src/>
 gtkwave pre_synth_sim.vcd
 ```
 
-![GTKWave Waveform](screenshots/pre_synth_wf.png)
+![GTKWave Waveform](Screenshots/pre_synth_wf.png)
 
 
 
