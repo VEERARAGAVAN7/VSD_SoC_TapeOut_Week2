@@ -6,6 +6,14 @@
 ![VSD](https://img.shields.io/badge/VSD-Program-orange?style=for-the-badge)
 ![India](https://img.shields.io/badge/Made%20in-India-saffron?style=for-the-badge)
 
+</div>
+
+<div align="center">
+
+📝 RTL Design → 🔄 Synthesis → 🏗️ Physical Design → 🎯 Tapeout Ready
+
+</div>
+
 ## 📅 Week 2 — Pre-Synthesis, Synthesis, and Post-Synthesis
 
 This week was dedicated to taking the **RTL design to gate-level representation** using Yosys, validating functional correctness, and preparing the design for physical design flow. The work primarily involved our SoC modules:
