@@ -1,4 +1,4 @@
-# 🖥️ RISC-V Reference SoC Tapeout Program VSD — Week 2
+# 🖥️ BabySoC Fundamentals & Functional Modelling — Week 2
 
 <div align="center">
 
