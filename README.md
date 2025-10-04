@@ -139,7 +139,7 @@ I am thankful to [**Kunal Ghosh**](https://github.com/kunalg123) and Team **[VLS
 ## 📈 **Weekly Progress Tracker**
 
 ![Week 1](https://img.shields.io/badge/Week%201-RTL%20Foundations-success?style=flat-square)
-![Week 2](https://img.shields.io/badge/Week%202-Synthesis%20Flow-success?style=flat-square)
+![Week 2](https://img.shields.io/badge/Week%202-SoC_Design%20Flow-success?style=flat-square)
 ![Week 3](https://img.shields.io/badge/Week%203-Upcoming-lightgrey?style=flat-square)
 
 ### 🚀 **Journey Continues...**
