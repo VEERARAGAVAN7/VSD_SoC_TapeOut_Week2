@@ -82,8 +82,8 @@ As this week focus on pre, synth, and post simulations
 
 ### 📌 Objective
 
--Verify functional correctness of the RTL design before synthesis.
--Ensure all modules (SoC + Core + DAC + PLL) integrate properly.
+- Verify functional correctness of the RTL design before synthesis.
+- Ensure all modules (SoC + Core + DAC + PLL) integrate properly.
 
 1. Compiled the design with iverilog
 2. Executed simulation
