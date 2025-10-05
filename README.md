@@ -16,7 +16,7 @@
 
 ## 📅 Week 2 — Pre-Synthesis, Synthesis, and Post-Synthesis
 
-This week was dedicated to taking the **RTL design to gate-level representation** using Yosys, validating functional correctness, and preparing the design for physical design flow. The work primarily involved our SoC modules:
+This week was dedicated to taking the **Pre-Synthesis Simulation of BabySoC** using iverilog, validating functional correctness, and preparing the design for synthesis and GLS. The work primarily involved our SoC modules:
 
 - vsdbabysoc.v → Top-level SoC integration module
 - rvmyth.v → RISC-V core
@@ -76,7 +76,7 @@ VSDBabySoC/
 
 ```
 
-As this week focus on pre, synth, and post simulations
+As this week focus on Pre-Synthesis simulation(Functional Verification)
 
 ## 🔄 Pre-Synthesis Simulation (RTL Simulation)
 
@@ -92,36 +92,11 @@ As this week focus on pre, synth, and post simulations
 ![pre_synth_sim](Screenshots/pre_synth_wf.png)
 
 
-## ⚙️ Synthesis (Yosys)
-
-### 📌 Objective
-
-- Convert the RTL design into a gate-level netlist mapped to SKY130 standard cells.
-- Optimize the design for timing, area, and power.
-
-![Synthesizing](Screenshots/synth.png)
-
-
-## 🧪 Post-Synthesis Simulation (GLS)
-### 📌 Objective
-
-- Validate that the synthesized netlist works the same as the RTL.
-- Catch mismatches, uninitialized signals (X), or timing issues.
-
-1. Compile testbench + netlist + standard cell models
-2. Run simulation
-3. View waveforms in GTKWave
-
-![Post_synth_sim](Screenshots/post_synth_wf.png)
-
-
 
 ## 🌟 Key Learnings from Week 2
 
 - Understood SoC-level integration of multiple modules.
-- Gained hands-on with Yosys synthesis flow using multiple .lib files.
-- Verified equivalence between RTL simulation and Gate-Level Simulation (GLS).
-- Experienced challenges like missing include files, library mismatches, and fixed them.
+- Functional verification of BabySoC
 
 
 ## 🙏 **Acknowledgment**
@@ -144,7 +119,7 @@ I am thankful to [**Kunal Ghosh**](https://github.com/kunalg123) and Team **[VLS
 
 ### 🚀 **Journey Continues...**
 
-In the upcoming weeks, I will dive into **Physical Design (PD) flow**, timing closure, and finally prepare the SoC for **tapeout readiness** 🚀
+In the upcoming weeks, I will dive into **Synthesis and Post-Synthesis Simulation(GLS)**,STA,Timing closure and finally prepare the SoC for **tapeout readiness** 🚀
 
 ---
 
