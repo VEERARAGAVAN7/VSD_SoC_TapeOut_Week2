@@ -14,7 +14,7 @@
 
 </div>
 
-## 📅 Week 2 — Pre-Synthesis, Synthesis, and Post-Synthesis
+## 📅 Week 2 — Pre-Synthesis of VSDBabySoC
 
 This week was dedicated to taking the **Pre-Synthesis Simulation of BabySoC** using iverilog, validating functional correctness, and preparing the design for synthesis and GLS. The work primarily involved our SoC modules:
 
