@@ -68,7 +68,7 @@ iverilog -o output/pre_synth_sim/pre_synth_sim.out -DPRE_SYNTH_SIM -I src/includ
 ```
 code:
 
-@veeraragav-victus:~/VSD_Soc_TapeOut_Program/week2/VSDBabySoC$ ./pre_synth_sim.out 
+./pre_synth_sim.out 
 ```
 
 ![Simulation Run](Screenshots/simulation.png)
@@ -78,7 +78,7 @@ code:
 ```
 code:
 
-@veeraragav-victus:~/VSD_Soc_TapeOut_Program/week2/VSDBabySoC$ gtkwave pre_synth_sim.vcd
+ gtkwave pre_synth_sim.vcd
 ```
 
 ![GTKWave Waveform](Screenshots/pre_synth_wf.png)
